@@ -1,0 +1,7 @@
+alfonse:
+  build: .
+  command: npm start
+  volumes:
+    - .:/home/app/alfonse
+  ports:
+    - '3000:3000'

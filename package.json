@@ -1,0 +1,19 @@
+{
+    "name": "alfonse",
+    "version": "1.0.0",
+    "main": "server.js",
+    "author": "Alistair Shaw <alistairshaw@gmail.com>",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "babel-cli": "^6.18.0",
+        "babel-preset-es2015-node5": "^1.2.0",
+        "babel-watch": "^2.0.4",
+        "check-types": "^7.0.1",
+        "express": "^4.14.0",
+        "jasmine": "^2.5.2"
+    },
+    "scripts": {
+        "start": "babel-watch server.js",
+        "tests": "babel-watch spec/run.js"
+    }
+}
